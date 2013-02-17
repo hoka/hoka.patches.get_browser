@@ -37,6 +37,6 @@ setup(name='hoka.patches.get_browser',
       zip_safe=False,
       entry_points='''
 [z3c.autoinclude.plugin]
-target = Zope2
+target = zope
 ''',
 )
