@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '2.13.19.1'
+version = '2.13.19.2'
 
 setup(name='hoka.patches.get_browser',
       version=version,
@@ -20,7 +20,7 @@ setup(name='hoka.patches.get_browser',
       keywords='hoka hook get_browser zope2',
       author='Kai Hoppert',
       author_email='kai.hoppert@online.de',
-      url='http://pypi.python.org/pypi/hoka.patches.get_browser',
+      url='https://github.com/hoka/hoka.patches.get_browser',
       license='GPL version 2',
       packages=find_packages(),
       namespace_packages=['hoka','hoka.patches'],
